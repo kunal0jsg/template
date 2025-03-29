@@ -1,9 +1,7 @@
 {
-    "routes": [
-      {
-        "src": "/macbook/(.*)",
-        "dest": "/macbook/$1"
-      }
-    ]
-  }
-  
+  "routes": [
+    { "src": "/macbook/styles.css", "dest": "/macbook/styles.css" },
+    { "src": "/macbook/scripts.js", "dest": "/macbook/scripts.js" },
+    { "src": "/macbook/(.*)", "dest": "/macbook/$1" }
+  ]
+}
