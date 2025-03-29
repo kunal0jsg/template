@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "src": "/macbook/(.*)",
+        "dest": "/macbook/$1"
+      }
+    ]
+  }
+  
